@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Raseedy</string>
+
+
+    <string name="how_much_to_charge">الرصيد الذي تريد شحنة</string>
+    <string name="how_much_to_pay">المبلغ الذي تريد دفعة</string>
+    <string name="choose_the_way">اختر نوع العملية</string>
+
+    <string name="to_get_balance">للحصول على رصيد بقيمة:</string>
+    <string name="you_will_pay">ستدفع:</string>
+    <string name="amountـdeducted">المبلغ المخصوم:</string>
 </resources>
