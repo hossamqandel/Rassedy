@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
             }
             RaseedyTheme {
 
-
                 Surface(modifier = Modifier.fillMaxSize()) {
                     Splash()
                 }
