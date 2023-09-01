@@ -35,7 +35,6 @@ import dev.hossam.raseedy.ui.theme.RaseedyTheme
 
 class RaseedyActivity : ComponentActivity() {
     private val viewModel by viewModels<RaseedyViewModel>()
-    private val _isFirstVisit by lazy { SharedPref.getAppVisit() }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
