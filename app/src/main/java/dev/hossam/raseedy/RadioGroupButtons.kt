@@ -25,6 +25,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.core.isTablet
 
 
 @Composable
@@ -46,7 +47,7 @@ fun RadioGroupButtons(
             Text(
                 text = stringResource(id = R.string.how_much_to_pay),
                 style = MaterialTheme.typography.bodyLarge,
-                fontSize = 20.sp,
+                fontSize = if (isTablet()) 28.sp else 20.sp,
                 fontFamily = FontFamily(Font(R.font.cairo_medium))
             )
 
@@ -58,7 +59,7 @@ fun RadioGroupButtons(
                     isMethodPay.invoke(true)
                 },
                 colors = RadioButtonDefaults.colors(
-                    selectedColor = MaterialTheme.colorScheme.tertiary,
+                    selectedColor = MaterialTheme.colorScheme.secondary,
                     unselectedColor = MaterialTheme.colorScheme.onBackground
                 )
             )
@@ -73,7 +74,7 @@ fun RadioGroupButtons(
             Text(
                 text = stringResource(id = R.string.how_much_to_charge_the_balance),
                 style = MaterialTheme.typography.bodyLarge,
-                fontSize = 20.sp,
+                fontSize = if (isTablet()) 28.sp else 20.sp,
                 fontFamily = FontFamily(Font(R.font.cairo_medium))
             )
 
@@ -85,7 +86,7 @@ fun RadioGroupButtons(
                     isMethodPay.invoke(false)
                 },
                 colors = RadioButtonDefaults.colors(
-                    selectedColor = MaterialTheme.colorScheme.tertiary,
+                    selectedColor = MaterialTheme.colorScheme.secondary,
                     unselectedColor = MaterialTheme.colorScheme.onBackground
                 )
             )

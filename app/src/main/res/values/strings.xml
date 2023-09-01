@@ -13,5 +13,6 @@
 
     <string name="amountـdeducted">المبلغ المخصوم</string>
 
-    <string name="alert_message">تطبيق رصيدي هيساعدك تحسب الرصيد اللي هتحتاجه بعد قرار هيئة الاتصالات بخصم نسبة 30% من عمليات الشحن</string>
+    <string name="alert_message">تطبيق رصيدي هيساعدك تحسب الرصيد اللي هتحتاجه نسبة الى قرار وزارة الاتصالات بخصم نسبة 30% من عمليات الشحن</string>
+    <string name="title_activity_raseedy">RaseedyActivity</string>
 </resources>

@@ -1,9 +1,14 @@
 package dev.hossam.raseedy
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -22,6 +27,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.core.isTablet
 
 
 @Composable
@@ -29,11 +35,13 @@ fun Title(
     title: String,
 ) {
     Text(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(end = 14.dp),
         text = ":".plus(title),
         textAlign = TextAlign.End,
         fontWeight = FontWeight.Bold,
-        fontSize = 19.sp,
+        fontSize = if (isTablet()) 28.sp else 19.sp,
         fontFamily = FontFamily(Font(R.font.cairo_medium))
     )
 }
@@ -58,6 +66,16 @@ fun CustomTextInput(
                 }
             }
             onValueChange.invoke(text)
+        },
+        leadingIcon = {
+            Icon(
+                modifier = Modifier.clickable {
+                    text = ""
+                    onValueChange.invoke(text)
+                },
+                imageVector = Icons.Default.Clear,
+                contentDescription = null
+            )
         },
         singleLine = true,
         textStyle = TextStyle(
