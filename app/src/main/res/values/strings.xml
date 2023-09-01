@@ -1,12 +1,17 @@
 <resources>
     <string name="app_name">Raseedy</string>
 
+    <string name="how_much_to_charge_the_balance">الرصيد اللي عايز تشحنة صافي</string>
+    <string name="how_much_to_pay">المبلغ اللي هتدفعة</string>
+    <string name="choose_the_way">اختار نوع العملية</string>
 
-    <string name="how_much_to_charge">الرصيد الذي تريد شحنة</string>
-    <string name="how_much_to_pay">المبلغ الذي تريد دفعة</string>
-    <string name="choose_the_way">اختر نوع العملية</string>
+    <string name="if_you_paid">لو دفعت : </string>
+    <string name="you_will_get_balance">الرصيد اللي هيوصلك</string>
 
-    <string name="to_get_balance">للحصول على رصيد بقيمة:</string>
-    <string name="you_will_pay">ستدفع:</string>
-    <string name="amountـdeducted">المبلغ المخصوم:</string>
+    <string name="to_reach_balance">عشان يوصلك رصيد</string>
+    <string name="you_will_pay">هتدفع</string>
+
+    <string name="amountـdeducted">المبلغ المخصوم</string>
+
+    <string name="alert_message">تطبيق رصيدي هيساعدك تحسب الرصيد اللي هتحتاجه بعد قرار هيئة الاتصالات بخصم نسبة 30% من عمليات الشحن</string>
 </resources>
