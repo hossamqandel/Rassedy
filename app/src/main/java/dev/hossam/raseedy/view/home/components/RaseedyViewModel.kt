@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home.components
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf

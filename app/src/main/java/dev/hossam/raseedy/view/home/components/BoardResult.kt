@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home.components
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
@@ -17,6 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.R
 
 @Composable
 fun BoardResult(

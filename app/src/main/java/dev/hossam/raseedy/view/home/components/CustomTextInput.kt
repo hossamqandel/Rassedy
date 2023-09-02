@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -27,6 +27,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.R
 import dev.hossam.raseedy.core.isTablet
 
 

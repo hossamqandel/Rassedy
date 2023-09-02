@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home.components
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ElevatedButton
@@ -14,6 +14,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.R
 import dev.hossam.raseedy.core.SharedPref
 import dev.hossam.raseedy.core.isTablet
 

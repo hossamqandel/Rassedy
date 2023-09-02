@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -12,6 +12,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
+import dev.hossam.raseedy.R
 
 @Composable
 fun AlertMessage(){

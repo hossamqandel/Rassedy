@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.splash
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,8 @@ import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.lifecycleScope
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import dev.hossam.raseedy.view.home.RaseedyActivity
+import dev.hossam.raseedy.view.splash.components.Splash
 import dev.hossam.raseedy.ui.theme.RaseedyTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

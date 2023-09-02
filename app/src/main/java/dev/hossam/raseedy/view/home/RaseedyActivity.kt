@@ -1,4 +1,4 @@
-package dev.hossam.raseedy
+package dev.hossam.raseedy.view.home
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -20,6 +20,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import dev.hossam.raseedy.view.home.components.BoardResult
+import dev.hossam.raseedy.view.home.components.CustomDialogMessage
+import dev.hossam.raseedy.view.home.components.CustomTextInput
+import dev.hossam.raseedy.R
+import dev.hossam.raseedy.view.home.components.RadioGroupButtons
+import dev.hossam.raseedy.view.home.components.RaseedyViewModel
+import dev.hossam.raseedy.view.home.components.Title
 import dev.hossam.raseedy.core.isTablet
 import dev.hossam.raseedy.ui.theme.RaseedyTheme
 
@@ -40,11 +47,13 @@ class RaseedyActivity : ComponentActivity() {
 
                 Surface(
                     modifier = Modifier
-                        .fillMaxSize()
-                        .padding(22.dp),
+                        .fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(22.dp),
                         horizontalAlignment = Alignment.CenterHorizontally,
                     ) {
                         HomeWidget(

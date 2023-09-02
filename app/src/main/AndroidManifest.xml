@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="com.google.gms.permission.AD_ID"/>
+
     <application
         android:name=".RaseedyApplication"
         android:allowBackup="true"
@@ -12,14 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Raseedy"
-        tools:targetApi="31">
+        tools:targetApi="3٤">
         <activity
-            android:name=".RaseedyActivity"
+            android:name=".view.home.RaseedyActivity"
             android:exported="false"
             android:label="@string/title_activity_raseedy"
             android:theme="@style/Theme.Raseedy" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.splash.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
