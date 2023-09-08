@@ -5,7 +5,9 @@
 
 ## Download the release version through [Google Play Store](https://play.google.com/store/apps/details?id=dev.hossam.raseedy)             
 
-<img src="https://cdn.freebiesupply.com/logos/large/2x/get-it-on-google-play-logo-svg-vector.svg"  width="20%" height="20%"/>
+<a href="https://play.google.com/store/apps/details?id=dev.hossam.raseedy">
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/get-it-on-google-play-logo-svg-vector.svg" width="20%" height="20%" alt="Google Play Logo">
+</a>
 
 # How it works?
 - Within the "pay" method, you simply input the amount of money you possess, and Raseedy will promptly calculate and provide you with the resulting balance.
