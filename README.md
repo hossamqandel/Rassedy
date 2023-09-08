@@ -3,7 +3,7 @@
 
 <img src="https://i.ibb.co/VqPTLDS/Raseedy.png"/>
 
-## Download the release version through [Google Play Store](https://)             
+## Download the release version through [Google Play Store](https://play.google.com/store/apps/details?id=dev.hossam.raseedy)             
 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/get-it-on-google-play-logo-svg-vector.svg"  width="20%" height="20%"/>
 
